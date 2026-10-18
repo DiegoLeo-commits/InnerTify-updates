@@ -41,20 +41,20 @@ el código fuente vive en un repositorio privado.
 | `InnerTify-<versión>-vc<code>.apk` | La app. Es el único archivo que necesitas. |
 | `latest.json` | Metadatos que usa la app: versión, enlace, tamaño y SHA-256. |
 
-El `versionCode` del nombre del APK es lo que compara la app; la etiqueta (`v0.1.1-preview`)
+El `versionCode` del nombre del APK es lo que compara la app; la etiqueta (`v0.1.2`)
 es solo para leerlo.
 
 ## Verificar una descarga
 
 ```bash
-sha256sum InnerTify-0.1.1-Preview-vc20.apk
+sha256sum InnerTify-0.1.2-vc21.apk
 ```
 
 Debe coincidir con el `sha256` de `latest.json` y con el que aparece en las notas del release.
 
 ## Estado del proyecto
 
-**0.1.1 Preview** — versión de prueba. Se irán agregando funciones en las próximas
+**0.1.2** — versión de prueba. Se irán agregando funciones en las próximas
 actualizaciones; las novedades de cada una están en sus notas.
 
 ## Aviso legal
