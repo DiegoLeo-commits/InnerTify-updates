@@ -25,6 +25,23 @@ el código fuente vive en un repositorio privado.
 
 **Requisitos:** Android 8.0 o superior · ~60 MB libres.
 
+### Y en la tele (Android TV / Google TV)
+
+**No hay una APK aparte:** el mismo archivo trae las dos pantallas. Instalado en la tele,
+se abre su propio reproductor de pantalla grande y aparece en el menú de aplicaciones como
+**InnerTify** con su cartel.
+
+Para instalarlo en la tele, pásale el mismo `.apk` y ábrelo allí:
+
+- **USB** — cópialo a un pendrive, conéctalo a la tele y ábrelo con su explorador de archivos.
+- **Desde el móvil** — con una app de enviar archivos a la TV (por ejemplo *Send files to
+  TV*): mándale el `.apk` y ábrelo en la tele.
+- ***Downloader*** (Android TV) — pega la dirección del APK del release y se instala solo.
+- **ADB desde un ordenador** — `adb connect <ip-de-la-tele>:5555` y `adb install <archivo>.apk`.
+
+Después, deja la app abierta en la tele (muestra su pantalla de espera con la dirección) y
+desde el móvil entra en **Conectar a un dispositivo** para mandarle la música.
+
 ## Actualizaciones
 
 - Cada versión se publica aquí como un *release* con su APK y sus notas.
